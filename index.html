@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio | Kaique Bueno</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+        <div id="header">
+            <header>
+                <div>
+                    <ul class="social-media">
+                        <li>
+                            <a href="https://github.com/kiqbueno" target="_blank">                  
+                                <img src="/img/icons8-github.svg" alt="Ícone github" title="github"><!-- icon by icons8 --></img>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" target="_blank">
+                                <img src="/img/icons8-gmail.svg" alt="Ícone email" title="e-mail"><!-- icon by icons8 --></img>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/kaique-bueno-37a610217" target="_blank">
+                                <img src="/img/icons8-linkedin.svg" alt="Ícone linkedin" title="linkedin"><!-- icon by icons8 --></img>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </header>
+        </div>
+        
+        <div class="main-container">
+            <div class="left-column" id="original-column">
+                <h2 id="h2">Ola, eu sou o Kaique Bueno</h2>
+                <h2 id="h3">FrontEnd Developer</h2>
+                <p>Sou programador front-end<br>
+                   cursando técnico em informática integrado ao ensino médio pela Pucpr em Curitiba</p>
+            </div>
+            <div class="right-column">
+                <h2>Projetos</h2>
+                <div class="button-container">
+                    <button id="projetos-btn" onclick="alternarConteudo('projetos')">Projeto1</button>
+                </div>
+                <div class="button-container">
+                    <button id="projetos1-btn" onclick="alternarConteudo('projetos1')">Projeto2</button>
+                </div>
+                <h2>Capacitações</h2>
+                <div class="button-container">
+                    <button id=capacitacoes-btn" onclick="alternarConteudo('capacitacoes')">Saiba Mais</button>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+           <p>Kaique Bueno | 2023</p>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
